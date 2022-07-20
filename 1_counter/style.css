@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+    /*background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);*/
+}
+.col-md-6{
+    border: 5px solid black;
+    margin-top: 100px;
+    padding: 20px;
+}
+.btn{
+    margin: 10px;
+    border: 2px solid black;
+}
+h1{
+    font-weight: bold;
+    margin: 20px;
+}
