@@ -1,0 +1,41 @@
+#navbar{
+    background-color: black;
+}
+li{
+    color:antiquewhite;
+    list-style-type:none;
+    display: inline;
+    margin-left: 35px;
+
+}
+#nav-elements{
+    text-align: center;
+    padding: 15px;
+    font-size: 26px;
+
+}
+#title{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+
+img{
+    border-radius: 5px;
+}
+.col-md-3{
+    margin: 30px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+p{
+    padding: 5px;
+}
