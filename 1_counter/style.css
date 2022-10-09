@@ -1,10 +1,10 @@
 body{
-    background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to right, #ff0846c2 0%, #ffb199 100%);
     /*background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);*/
 }
 .col-md-6{
     border: 5px solid black;
-    margin-top: 100px;
+    margin-top: 150px;
     padding: 20px;
 }
 .btn{
@@ -14,4 +14,7 @@ body{
 h1{
     font-weight: bold;
     margin: 20px;
+}
+hr{
+    height: 2px !important;
 }
