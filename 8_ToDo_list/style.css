@@ -13,7 +13,12 @@ h1{
     margin: 20px;
 }
 button{
-    margin-left: 10px;
+    float: right;
+    /* margin-top: 5px; */
+    /* margin-left: 10px; */
+}
+hr{
+    height: 2px !important;
 }
 input{
     display: inline !important;
@@ -29,5 +34,7 @@ li{
     margin: 15px;
 }
 i{
+    cursor: pointer;
+    float: right;
     color: rgb(201, 67, 67);
 }
