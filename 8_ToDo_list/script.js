@@ -15,7 +15,10 @@ function addtolist()
     newtodoitem.appendChild(todoname)
     newtodoitem.appendChild(deletebtn)
 
+    var hrLine = document.createElement('hr')
+
     tododiv.appendChild(newtodoitem)
+    tododiv.appendChild(hrLine)
 }
 
 var tododiv = document.getElementById('mytodo')
@@ -29,3 +32,14 @@ function deleteitem(e)
         element.parentElement.remove()
     }
 }
+
+// Adding the todo item using the Enter key
+
+var input = document.getElementById("taskname");
+
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("btnclick").click();
+  }
+});
