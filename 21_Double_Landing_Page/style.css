@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: aliceblue;
+    backdrop-filter: brightness(0.5);
+    letter-spacing: 4px;
+}
+
+.split {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+.split.left {
+    position: absolute;
+    left: 0;
+    background-color: pink;
+    background: url(https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_GEO_09142021_inline.jpg.large.jpg);
+    background-size: cover;
+}
+
+.split.right {
+    position: absolute;
+    right: 0;
+    background-color: lightblue;
+    background: url(https://m.media-amazon.com/images/I/81IB9P7gpfL._AC_SL1500_.jpg);
+    background-size: cover;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 25px;
+    border: 4px solid;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.active-left .left {
+    width: 75%;
+}
+
+.active-left .right {
+    width: 25%;
+}
+
+.active-right .left {
+    width: 25%;
+}
+
+.active-right .right {
+    width: 75%;
+}
+
+.left,
+.right {
+    transition: width 1s ease-in-out;
+}
